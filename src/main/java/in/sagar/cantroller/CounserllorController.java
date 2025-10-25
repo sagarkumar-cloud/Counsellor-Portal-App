@@ -88,4 +88,9 @@ public class CounserllorController {
 		session.invalidate();
 		return "redirect:/";
 	}
+	
+	@GetMapping("/demo")
+	public String demo(Model model) {
+		return "index";
+	}
 }
