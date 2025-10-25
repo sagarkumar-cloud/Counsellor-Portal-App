@@ -89,8 +89,4 @@ public class CounserllorController {
 		return "redirect:/";
 	}
 	
-	@GetMapping("/demo")
-	public String demo(Model model) {
-		return "index";
-	}
 }
