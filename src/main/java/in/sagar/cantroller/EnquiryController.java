@@ -80,6 +80,9 @@ public class EnquiryController {
 		return "view-enquiry";
 	}
 
+	public String me(Module module) {
+		return "hari";
+	}
 	
 	
 }
